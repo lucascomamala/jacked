@@ -9,7 +9,7 @@ const Navbar = () => {
     <Stack 
       direction='row' 
       justifyContent='space-around' 
-      sx={{ gap: { xs: '40px', sm: '122px' }, mt: { xs: '20px', sm:'32px' }, justifyContent: 'none'}}
+      sx={{ gap: { xs: '40px', sm: '123px' }, mt: { xs: '20px', sm:'32px' }, justifyContent: 'none'}}
       px='20px'
     >
       <Link to="/">
@@ -19,10 +19,10 @@ const Navbar = () => {
         direction="row"
         gap='40px'
         fontSize='24px'
-        alignItem='flex-end'
+        alignItem='flex-end' 
       >
         <Link to="/" style={{ textDecoration: 'none', color: '#3a1212', borderBottom: "3px solid #ff2625" }}>Home</Link>
-        <a href="#excercises" style={{ textDecoration: 'none', color: '#3a1212'}} > Excercises</a>
+        <a href="#exercises" style={{ textDecoration: 'none', color: '#3a1212'}} > Exercises</a>
       </Stack>
     </Stack>
   )
